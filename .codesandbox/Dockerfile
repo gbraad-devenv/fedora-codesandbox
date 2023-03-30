@@ -1,1 +1,1 @@
-FROM ghcr.io/gbraad/devenv/base:37
+FROM ghcr.io/gbraad/devenv/dotfiles:37
