@@ -1,4 +1,4 @@
 # devenv-codesandbox
 
-  * Open [CodeSandbox](https://GitHubBox.com/gbraad/devenv-csb)
+  * Open [CodeSandbox](https://codesandbox.io/p/github/gbraad/devenv-csb)
   
