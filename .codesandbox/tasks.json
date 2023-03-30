@@ -3,7 +3,7 @@
   "tasks": {
     "tailscaled": {
       "name": "Start Tailscaled",
-      "command": "docker run -d --name=tailscaled -v /var/run/tailscale/:/var/run/tailscale/ -v /var/lib:/var/lib -v /dev/net/tun:/dev/net/tun --network=host --cap-add=NET_ADMIN --cap-add=NET_RAW -cap-add=SYS_MODULE --env TS_SOCKET=/var/run/tailscale/tailscale.sock --env TS_AUTHKEY=${TS_AUTHKEY} tailscale/tailscale 
+      "command": "docker run -d --name=tailscaled -v /var/run/tailscale/:/var/run/tailscale/ -v /var/lib:/var/lib -v /dev/net/tun:/dev/net/tun --network=host --cap-add=NET_ADMIN --cap-add=NET_RAW --cap-add=SYS_MODULE --env TS_SOCKET=/var/run/tailscale/tailscale.sock --env TS_AUTHKEY=${TS_AUTHKEY} tailscale/tailscale 
       "restartOn": {
         "branch": true
       },
