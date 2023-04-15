@@ -3,8 +3,8 @@ FROM ghcr.io/gbraad/devenv/base:37
 
 USER root
 
-RUN  dnf install podman \
-     && dnf update tailscale \
+RUN  dnf install -y podman \
+     && dnf update -y tailscale \
      && dnf clean all \
      && rm -rf /var/cache/yum
 
