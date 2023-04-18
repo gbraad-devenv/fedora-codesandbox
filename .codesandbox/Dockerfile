@@ -18,7 +18,7 @@ RUN dnf install -y \
         feh \
         tigervnc-server \
     && dnf clean all \
-    && rm -rf /var/cache/yum
+    && rm -rf /var/cache/yum \
     && echo PREFERRED=i3 | tee /etc/sysconfig/desktop
 
 USER gbraad
